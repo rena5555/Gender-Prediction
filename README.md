@@ -1,7 +1,7 @@
 # Gender Predictor
 
 ## Motivation 
-Machine learning techniques to improve gender prediction in gender based marketing are a popular way for companies to improve targeted advertising campaigns. What I'm going to discuss is a sensitive topic. My attempt is in no way trying to pass judgment on gender or create social gaps. Everyone has a different idea of what gender means to them. For the vast majority of Americans, the gender they identify with is what they are born with. The goal of this model is to capture what gender you portray yourself as, regardless of your gender at birth. 
+Maasdchine learning techniques to improve gender prediction in gender based marketing are a popular way for companies to improve targeted advertising campaigns. What I'm going to discuss is a sensitive topic. My attempt is in no way trying to pass judgment on gender or create social gaps. Everyone has a different idea of what gender means to them. For the vast majority of Americans, the gender they identify with is what they are born with. The goal of this model is to capture what gender you portray yourself as, regardless of your gender at birth. 
 
 Gender based marketing is a very popular way for companies to market their products. Advertisers currently use this to market appropriate ads for higher revenue. My aim is to help companies better target their advertising toward a specific gender with gender based marketing. This can be as simple as finding which areas of a mall or store have higher gender specific traffice and thereby placing appropriate ads or products to increase likelihood of a sale.
 
@@ -17,7 +17,7 @@ Gender based marketing is a very popular way for companies to market their produ
 
 * The model I selected is **Xception CNN**. It produces the highest accuracy when compared to Vgg-16, Resnet-152, and Inception V3. Xception is a pretrained model trained on approximately **1.2** million images. The pretrained network can classigy images into 1000 object categories. Xception is 71 layers deep. Xception has entry, middle and exit flow architecture. 
 
-    ![picture](/Users/rena/Desktop/Class/Gender-Prediction/photos/Xception.png)
+    ![picture](Images/Xception.png)
 
 
 * Xception is the extreme version of Inception because it uses **depthwise separable convolutions**(see image above). It transforms the image once in the depthwise convolution and then the image is elongated by the number of channels. Computational power is saved since the image is not being transformed over and over again which happens in a normal convolution. The 1 to 1 convolution is done first and then spatial convolutions are done afterwards.
