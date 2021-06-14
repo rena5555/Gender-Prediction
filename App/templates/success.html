@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>  
+<head>  
+<title>success</title>  
+</head>  
+
+<body>  
+<p>File uploaded successfully</p>  
+<p>File Name: {{name}}</p>  
+<p>Prediction: {{prediction}}</p>  
+<p>Image:</p> 
+<img src="static/images/{{name}}">
+ 
+<!--<meta http-equiv="refresh" content="2; URL=/uploads" /> -->
+
+    <a href="{{ url_for('uploads') }}">Go Home</a>
+ 
+  <!--  <button action = "/uploads" name="file"> Return to HomePage </button> -->
+    
+</body>  
+</html>  
