@@ -17,7 +17,7 @@ Gender based marketing is a very popular way for companies to market their produ
 
 * The model I selected is **Xception CNN**. It produces the highest accuracy when compared to Vgg-16, Resnet-152, and Inception V3. Xception is a pretrained model trained on approximately **1.2** million images. The pretrained network can classigy images into 1000 object categories. Xception is 71 layers deep. Xception has entry, middle and exit flow architecture. 
 
-    ![picture](Images/Xception.png)
+    ![picture](photos/Xception.png)
 
 
 * Xception is the extreme version of Inception because it uses **depthwise separable convolutions**(see image above). It transforms the image once in the depthwise convolution and then the image is elongated by the number of channels. Computational power is saved since the image is not being transformed over and over again which happens in a normal convolution. The 1 to 1 convolution is done first and then spatial convolutions are done afterwards.

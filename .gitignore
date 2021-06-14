@@ -1,6 +1,5 @@
 *.csv
 *.jpg
-*.png
 *.h5
 *.json
 *.hdf5
