@@ -19,7 +19,6 @@ Gender based marketing is a very popular way for companies to market their produ
 
     ![picture](photos/Xception.png)
 
-
 * Xception is the extreme version of Inception because it uses **depthwise separable convolutions**(see image above). It transforms the image once in the depthwise convolution and then the image is elongated by the number of channels. Computational power is saved since the image is not being transformed over and over again which happens in a normal convolution. The 1 to 1 convolution is done first and then spatial convolutions are done afterwards.
 
 
